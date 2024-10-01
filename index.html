@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meal Finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Meal Finder</h1>
+      <div class="flex">
+        <form class="flex" id="submit">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search for meals or keywords"
+          />
+          <button class="search-btn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <button class="random-btn" id="random">
+          RANDOM MEAL <i class="fas fa-random"></i>
+        </button>
+      </div>
+
+      <div id="result-heading">
+        <!-- If data exist: -->
+        <!-- <h2>Search results for 'd':</h2> -->
+
+        <!-- If data doesn't exist: -->
+        <!-- <h2>There are no search results. Try again!</h2> -->
+      </div>
+      <div id="meals" class="meals">
+        <!-- <div class="meal">
+          <img
+            src="https://www.themealdb.com/images/media/meals/1529446137.jpg"
+            alt="Egg Drop Soup"
+          />
+          <div class="meal-info">
+            <h3>Egg Drop Soup</h3>
+          </div>
+        </div>
+        <div class="meal">
+          <img
+            src="https://www.themealdb.com/images/media/meals/y7h0lq1683208991.jpg"
+            alt="Eggplant Adobo"
+          />
+          <div class="meal-info">
+            <h3>Eggplant Adobo</h3>
+          </div>
+        </div>
+        <div class="meal">
+          <img
+            src="https://www.themealdb.com/images/media/meals/c7lzrl1683208757.jpg"
+            alt="Crispy Eggplant"
+          />
+          <div class="meal-info">
+            <h3>Crispy Eggplant</h3>
+          </div>
+        </div>
+        <div class="meal">
+          <img
+            src="https://www.themealdb.com/images/media/meals/2dsltq1560461468.jpg"
+            alt="Tuna and Egg Briks"
+          />
+          <div class="meal-info">
+            <h3>Tuna and Egg Briks</h3>
+          </div>
+        </div> -->
+      </div>
+      <div id="single-meal">
+        <!-- <div class="single-meal">
+          <h1>Eggplant Adobo</h1>
+          <img
+            src="https://www.themealdb.com/images/media/meals/y7h0lq1683208991.jpg"
+            alt="Eggplant Adobo"
+          />
+          <div class="single-meal-info">
+            <p>Vegetarian</p>
+            <p>Filipino</p>
+          </div>
+          <div class="main">
+            <p>
+              1. Slice 1 lb. small Japanese or Italian eggplant (about 3) into
+              quarters lengthwise, then cut crosswise into 2"-wide pieces. Place
+              in a medium bowl. Add 1 Tbsp. sugar, 1 tsp. Diamond Crystal or ½
+              tsp. Morton kosher salt, and ½ tsp. freshly ground black pepper.
+              Toss to evenly coat eggplant and let sit at room temperature at
+              least 20 minutes and up to 2 hours.
+            </p>
+            <h2>Ingredients</h2>
+            <ul>
+              <li>Egg Plants - 1 lb</li>
+              <li>Sugar - 2 tbs</li>
+              <li>Salt - 1 tsp</li>
+              <li>Pepper - 1 tsp</li>
+              <li>Garlic - 1 whole</li>
+              <li>Olive Oil - 3 tbs</li>
+              <li>Ground Pork - 4 oz</li>
+              <li>Rice Vinegar - 3 tbs</li>
+              <li>Soy Sauce - 2 tbs</li>
+              <li>Bay Leaf - 2</li>
+            </ul>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
